@@ -145,6 +145,10 @@ on boot
     chmod 0640 /sys/fs/selinux/enforce
     chmod 0440 /sys/fs/selinux/policy
 
+    # Smart Charging
+    chown system system /sys/class/power_supply/battery/charging_enabled
+    chmod 0666 /sys/class/power_supply/battery/charging_enabled
+
     write /dev/cpuset/audio-app/cpus 1-2
     # set default schedTune value for camera-daemon
     write /dev/stune/camera-daemon/schedtune.prefer_idle 1
