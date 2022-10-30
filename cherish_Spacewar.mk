@@ -48,3 +48,5 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_CHARACTERISTICS := nosdcard
 
 PRODUCT_GMS_CLIENTID_BASE := android-nothing
+
+Nothing/Spacewar/Spacewar:12/SKQ1.211230.001/1666412462:user/release-keys
