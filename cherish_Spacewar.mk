@@ -23,6 +23,7 @@ $(call inherit-product, device/nothing/Spacewar/device.mk)
 $(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
 TARGET_GAPPS_ARCH := arm64
+WITH_GMS := true
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # CherishOS Properties
