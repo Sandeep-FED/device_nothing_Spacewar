@@ -31,6 +31,7 @@ TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
 TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
+CHERISH_BUILD_TYPE=OFFICIAL
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := cherish_Spacewar
@@ -38,6 +39,9 @@ PRODUCT_DEVICE := Spacewar
 PRODUCT_BRAND := Nothing
 PRODUCT_MODEL := A063
 PRODUCT_MANUFACTURER := Nothing
+
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.cherish.maintainer=Snippetguy
 
 PRODUCT_CHARACTERISTICS := nosdcard
 
