@@ -45,6 +45,8 @@ PRODUCT_MANUFACTURER := Nothing
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.cherish.maintainer=Snippetguy
 
+BUILD_FINGERPRINT:= Nothing/Spacewar/Spacewar:12/SKQ1.211230.001/1666412462:user/release-keys
+
 PRODUCT_CHARACTERISTICS := nosdcard
 
 PRODUCT_GMS_CLIENTID_BASE := android-nothing
